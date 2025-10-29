@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  spring-struct:
+    build: .
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: ["com.example.meuprojeto"]
